@@ -549,8 +549,8 @@ class ImageReader(object):
 
     This class is meant to be harnessed to a scope like this:
 
-    >>> with GetImageReader(path) as reader:
-    >>>     ....
+    >>> with ImageReader(path) as reader:
+    >>>     image = reader.read()
 
     It uses `__enter__` and `__exit__` to manage the random access stream
     that can be used to cache the file contents in memory.
