@@ -4,3 +4,8 @@
 /python_bioformats.egg-info
 /dist
 /bioformats/_version.py
+
+/.eggs/
+/.pytest_cache/
+/bioformats/jars/SlideBook6Reader.jar
+/try_*.py
